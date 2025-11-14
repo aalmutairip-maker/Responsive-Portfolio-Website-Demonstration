@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website Demonstration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">My Portfolio</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HOME -->
+    <section id="home" class="hero">
+        <h2>Welcome to my Portfolio</h2>
+        <p>This website is fully responsive and W3 validated.</p>
+        <button class="btn" onclick="scrollToTop()">Back to Top</button>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I am learning HTML, CSS, JavaScript and building responsive websites.</p>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="work">
+        <h2>My Work</h2>
+
+        <div class="gallery">
+
+            <!-- NEW WORKING IMAGES -->
+            <img src="https://images.unsplash.com/photo-1520975918318-3a28c3c5d2a9?w=800"
+                 alt="Web Interface Project">
+
+            <img src="https://images.unsplash.com/photo-1559027615-ce3b7f6a47aa?w=800"
+                 alt="Frontend Coding Project">
+
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800"
+                 alt="Creative Digital Work">
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: example@gmail.com</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
